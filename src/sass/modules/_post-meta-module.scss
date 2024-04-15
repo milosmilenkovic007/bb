@@ -1,0 +1,40 @@
+.post-meta-module {
+    display: flex;
+}
+
+.post-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Roboto Slab;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: justify;
+
+    
+
+    .author-info {
+        align-items: center;
+        display: flex;
+        margin-bottom: 0px;
+
+        .author-avatar {
+            margin-right: 10px;
+        }
+
+        .author-details {
+            font-weight: bold;
+
+            .author-name {
+                text-transform: uppercase;
+            }
+
+            .author-email {
+                font-weight: bold;
+                margin-top: 2px;
+            }
+        }
+    }
+}

@@ -1,0 +1,45 @@
+.home {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-template {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.page-template-default {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article:hover, .three-article:hover, .five-articles:hover, .four-article:hover {
+    background: #e2e8ff;
+}
+
+.button-secondary {
+    background-color: #00427f;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.stripe-checkout-button {
+    background-color: #00427f;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.stripe-checkout-button:hover {
+    background-color: #011e39;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}

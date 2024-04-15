@@ -1,0 +1,149 @@
+.home-page {
+    
+    .header-section {
+        display: flex;
+
+        .header-column {
+            flex: 0 0 75%;
+            margin-right: 15px;
+
+            .header-ad {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+            .ad-txt{
+                text-align: center;
+                margin-top: 50px;
+                display: block;
+            }
+            .ad-banner {
+                margin: 0px;
+                -o-object-fit: cover;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                min-height: 110px;
+                width: 100%;
+            }
+        }
+
+        .poll-column {
+            flex: 0 0 25%;
+
+            .header-poll {
+            
+            }
+            .poll-title {
+            font-family: Roboto Slab;
+            font-size: 14px;
+            font-weight: 800;
+            line-height: 18px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            }
+            .wp-polls .pollbar {
+                background: #00427f;
+                border: 0px solid #c8c8c8;
+                font-size: 6px;
+                height: 21px;
+                line-height: 8px;
+                margin: 0px;
+                margin-bottom: 10px;
+            }
+            .wp-polls-ans {
+                width: 100%;
+                filter: alpha(opacity = 100);
+                -moz-opacity: 1;
+                opacity: 1;
+            }
+        }
+    }
+    .wp-polls-ul .poll-answer:nth-child(2) .pollbar {
+        background: #FACA00;
+
+    }
+
+    .poll-answer {
+        position: relative;
+    }
+    
+    .poll-results {
+        left: 8%;
+        position: absolute;
+        top: -9px;
+        transform: translateX(-50%);
+        z-index: 2;
+        color: white;
+        font-family: Roboto Slab;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        text-transform: uppercase;
+        
+
+    }
+    
+    .pollbar {
+        position: relative;
+        z-index: 1;
+    }
+    .vote-poll-txt {margin-left:10px;}
+
+    .inline-ad {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 0.5px solid;
+        margin-left:auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .ad-txt {
+        text-align: center;
+        margin-top: 50px;
+        display: block;
+    }
+    .inline-page-banner{
+        margin: 0px;
+        -o-object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        min-height: 110px;
+        width:100%;
+    }
+}
+
+.inline-home-second-ad {
+    display: block;
+    width: 100%;
+    height: 135px;
+    border: 0.5px solid;
+    margin-left:auto;
+    margin-right: auto;
+}
+.ad-txt {
+    text-align: center;
+    margin-top: 50px;
+    display: block;
+}
+.flex-container {
+    display: flex;
+}
+
+.flex-container-one {
+    display: flex;
+}
+
+.inline-ad {
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.inline-page-banner {
+    width: 100%;
+    height: auto; 
+}

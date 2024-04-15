@@ -1,0 +1,114 @@
+.locked-title {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.article-lock {
+    background: linear-gradient(rgb(240 241 245 / 0%) -10%, #f0f1f5 22%);
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+    min-height: 350px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 999999;
+    display: -webkit-box;
+    margin-left: auto;
+    margin-right: auto;
+
+    .paywall-lock-buttons {
+        display: -webkit-box;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    }
+
+.paywall-button-container {
+    margin: 25px;
+    padding: 30px;
+    background: linear-gradient(180deg, #4FC426 0%, #689958 100%);
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 25px;
+    min-height: 260px;
+
+
+}
+
+.paywall-button-container button {
+    display: block;
+    width: 100%; 
+    margin-top: 10px; 
+}
+
+.custom-product-title {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family: Roboto Slab;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 21.1px;
+    letter-spacing: -0.01em;
+    text-align: center;
+
+}
+
+.custom-product-description {
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: Roboto Slab;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.83px;
+    letter-spacing: -0.01em;
+    text-align: center;
+        
+}
+.custom-product-description-one {
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: Roboto Slab;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.83px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    min-height: 75px;
+}
+
+
+.custom-product-price {
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 21.1px;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+
+.payment-method-form {
+    
+
+    select {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        padding: 10px;  
+    }
+}
+
+select#payment-method option[value="stripe"]::before {
+    content: "\1F4B3"; 
+    margin-right: 5px; 
+}
+
+select#payment-method option[value="swish"]::before {
+    content: "\1F4F1"; 
+    margin-right: 5px; 
+}
+.hidden {
+    display:none;
+
+}
+

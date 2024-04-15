@@ -1,0 +1,154 @@
+{
+    "key": "group_65fd4a8bb5be0",
+    "title": "Payment Module",
+    "fields": [
+        {
+            "key": "field_6609701e630d4",
+            "label": "Payment method",
+            "name": "payment_method",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Swish": "Swish",
+                "Stripe": "Stripe"
+            },
+            "default_value": "Swish",
+            "return_format": "value",
+            "multiple": 0,
+            "max": "",
+            "prepend": "",
+            "append": "",
+            "allow_null": 0,
+            "ui": 0,
+            "acfe_field_group_condition": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "allow_custom": 0,
+            "search_placeholder": "",
+            "min": ""
+        },
+        {
+            "key": "field_66097052630d5",
+            "label": "Phone number",
+            "name": "phone_number",
+            "aria-label": "",
+            "type": "acfe_phone_number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_6609701e630d4",
+                        "operator": "==",
+                        "value": "Swish"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "countries": "",
+            "preferred_countries": [
+                "se"
+            ],
+            "default_country": "se",
+            "geolocation": 0,
+            "native": 0,
+            "national": 0,
+            "dropdown": 0,
+            "dial_code": 0,
+            "default_value": "",
+            "placeholder": "",
+            "return_format": "number",
+            "acfe_field_group_condition": 0,
+            "geolocation_token": ""
+        },
+        {
+            "key": "field_6609707d630d6",
+            "label": "Email",
+            "name": "email",
+            "aria-label": "",
+            "type": "email",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_6609701e630d4",
+                        "operator": "==",
+                        "value": "Stripe"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "acfe_field_group_condition": 0
+        },
+        {
+            "key": "field_660970ef9a98e",
+            "label": "Proceed with payment",
+            "name": "proceed_with_payment",
+            "aria-label": "",
+            "type": "acfe_button",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "button_value": "Submit",
+            "button_type": "button",
+            "button_class": "button button-secondary",
+            "button_id": "",
+            "button_before": "",
+            "button_after": "",
+            "button_ajax": 0,
+            "acfe_field_group_condition": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "templates\/template-swish.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_display_title": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1711894790
+}

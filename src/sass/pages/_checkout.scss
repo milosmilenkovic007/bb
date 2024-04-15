@@ -1,0 +1,48 @@
+    
+    
+.woocommerce {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.woocommerce-form-coupon-toggle {
+    display:none;
+}
+.woocommerce-billing-fields {
+    margin: 0;
+    line-height: 0;
+    padding: 0;
+}
+#payment-method-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#payment-method {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#payment-method option {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff; /* Background color */
+    color: #333; /* Text color */
+    border: none;
+    border-radius: 5px;
+}
+
+#payment-method option:hover {
+    background-color: #f0f0f0; /* Hover background color */
+}
+
+#checkout-button {
+    color: white;
+    background: #00427f;
+    border: none;
+    box-shadow: none;
+    padding: 16px;
+    cursor: pointer;
+}

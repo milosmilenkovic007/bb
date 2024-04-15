@@ -1,0 +1,114 @@
+/* five-article-grid.scss */
+
+.five-articles-module {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 3fr;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.five-articles-grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+.five-articles {
+  margin-bottom: 10px;
+  background: #F0F1F5;
+  padding: 10px;
+}
+
+.five-article-image img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 180px;
+  margin: 0;
+}
+
+.five-articles-grid-bottom .five-article-image img {
+  max-height: 180px;
+  margin: 0;
+}
+
+.five-article-content {
+  text-align: left;
+  color: #000;
+}
+
+.five-article-big-title {
+  color: #000;
+  font-family: Barlow Condensed, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 30px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+.five-article-big-title:hover {
+  color: #00427f;
+}
+
+.five-article-small-title {
+  font-family: Barlow Condensed;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+.five-article-small-title:hover {
+  color: #00427f;
+}
+
+.five-article-small-bottom-title {
+  font-family: Barlow Condensed;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+.five-article-small-bottom-title:hover {
+  color: #00427f;
+}
+
+.five-article-content .five-article-excerpt {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  text-align: justify;
+  color: #000;
+  margin-top: 5px;
+}
+
+.five-articles-grid-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 10px;
+}
+
+.five-article-image-big img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-height: 460px;
+  margin: 0;
+}
+
+.five-articles-grid-bottom .five-articles {
+  grid-column: span 2;
+}

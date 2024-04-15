@@ -1,0 +1,39 @@
+#registration-form {
+    background-color: transparent;
+    border: 0px solid #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 70px;
+  
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+  
+    input[type="text"],
+    input[type="password"],
+    input[type="tel"],
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+  
+    input[type="submit"] {
+        background-color: #00427f;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color .3s ease;
+    }
+
+  
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  }

@@ -1,0 +1,145 @@
+.post-template-default {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.site-content {
+    flex: 75% 0 0;
+}
+
+.sidebar {
+    display: block;
+    min-width: 320px;
+}
+.widgettitle {
+    display:none;
+}
+
+#primary {
+    display:flex;
+    gap: 20px;
+}
+
+.article-ad-banner {
+    display: block;
+    margin: 0 auto;
+    min-height: 110px;
+    -o-object-fit: cover;
+    width: 100%;
+}
+.single-article-ad {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+.single-header-section {
+    display: flex;
+    .poll-column {
+        flex: 0 0 25%;
+    }
+    .poll-title {
+        font-family: Roboto Slab;
+        font-size: 14px;
+        font-weight: 800;
+        letter-spacing: -.01em;
+        line-height: 18px;
+        text-align: left;
+    }
+    .poll-answer {
+        position: relative;
+    }
+    .wp-polls ul, .wp-polls-ul, .wp-polls-ans ul {
+        text-align: left;
+        list-style: none;
+        float: none;
+    }
+    .wp-polls-ul {
+        padding: 0px;
+        margin: 0px 0px 10px 10px;
+    }
+    .poll-results {
+        color: #fff;
+        font-family: Roboto Slab;
+        font-size: 12px;
+        font-weight: 500;
+        left: 8%;
+        letter-spacing: -.01em;
+        line-height: 16px;
+        position: absolute;
+        text-align: left;
+        text-transform: uppercase;
+        top: -9px;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+    .poll-column .wp-polls .pollbar {
+        background: #00427f;
+        border: 0 solid #c8c8c8;
+        font-size: 6px;
+        height: 21px;
+        line-height: 8px;
+        margin: 0 0 10px;
+    }
+    .pollbar {
+        position: relative;
+        z-index: 1;
+    }
+    .wp-polls-ul .poll-answer:nth-child(2) .pollbar {
+        background: #faca00;
+    }
+
+}
+
+.single-header-column {
+    flex: 0 0 75%;
+    margin-right: 15px;
+}
+
+.entry-header {
+    background: #F0F1F5;
+    padding:10px;
+
+}
+
+.post-thumbnail {
+    max-height: 450px;
+    overflow: hidden;
+}
+
+.post-thumbnail img {
+    height: 450px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.entry-title {
+font-family: Barlow Condensed;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -0.01em;
+text-align: left;
+}
+
+.single-excerpt {
+    font-family: Roboto Slab sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: justify;
+}
+
+.single-content {
+    font-family: Roboto Slab;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: justify;
+
+}

@@ -1,0 +1,66 @@
+// _four_articles_module.scss
+
+.four-articles-module {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 4fr;
+  width: 100%;
+}
+.four-articles-grid {
+  display: flex;
+  margin-top: 0px;
+  width: 100%;
+}
+
+  .four-article {
+    width: 100%; 
+    margin-bottom: 0px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background: #f0f1f5;
+  }
+    .four-article-link {
+      text-decoration: none;
+    }
+      .four-article-image img {
+    
+          width: 100%;
+          height: auto;
+          margin-bottom: 0;
+          margin: 0;
+          max-height: 180px;
+        }
+      
+
+      .four-article-content {
+        padding: 10px;
+        text-align: left;
+        color: #000;
+      }
+        .four-article-title {
+          font-family: Barlow Condensed;
+          font-size: 15px;
+          font-weight: 700;
+          line-height: 18px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          margin: 0;
+        }
+        .four-article-title:hover {
+          color: #00427f;
+        }
+
+        .four-article-excerpt {
+          color: #000;
+          font-family: Roboto Slab, sans-serif;
+          font-size: 12px;
+          font-weight: 500;
+          letter-spacing: -.01em;
+          line-height: 16px;
+          margin-top: 5px;
+          text-align: justify;
+      }
+  
+

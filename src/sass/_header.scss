@@ -1,0 +1,299 @@
+// _header.scss
+a {
+text-decoration: none;
+}
+
+$font-family: 'Roboto Slab', sans-serif;
+
+.top-header {
+    width: 100%;
+    background: #00427F;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.top-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content {
+    color: white;
+    font-weight: 900;
+    font-family: $font-family;
+    font-size: 10px;
+    line-height: 13.19px;
+}
+
+.right-content {
+    color: white;
+    font-weight: 900;
+    font-family: $font-family;
+    font-size: 10px;
+    line-height: 13.19px;
+    margin-left: auto;
+}
+
+.login-button {
+    width: 43px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-icon {
+    width: 100%;
+    height: 100%;
+    fill: white;
+}
+
+.next-row {
+    display: flex;
+    border-bottom: 0.5px solid #000000;
+}
+
+.logo-column {
+    height: 95px;
+    margin-top: -5px;
+    width: 55%;
+}
+.aktuella-matcher {
+    width: 20%;
+    background-color:#F0F1F5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 95px;
+}
+.small-title {
+    font-family: Roboto Slab,sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0;
+}
+.match-column-one {
+    width: 50%;
+    text-transform: uppercase;
+    float: left;
+}
+.match-column-two {
+    width: 50%;
+    text-transform: uppercase;
+    float: right;
+}
+.match-title {
+font-family: Roboto Slab;
+font-size: 12px;
+font-weight: 500;
+line-height: 5px;
+letter-spacing: -0.01em;
+text-align: left;
+padding-left: 5px;
+
+}
+
+
+.featured-column {
+    width: 25%;
+    height: 95px;
+}
+.author-photo {
+    float: left;
+    margin-right: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 95px;
+    width: auto;
+}
+.column-title {
+text-align: center;
+font-family: Roboto Slab;
+font-size: 16px;
+font-weight:600;
+line-height: 18px;
+letter-spacing: -0.01em;
+text-align: center;
+text-decoration: none !important;
+}
+
+.author-title {
+    font-family: Barlow Condensed;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 0;
+    text-align: center;
+    margin-top: 0px;
+}
+
+// Add the following styles for the menu row
+.menu-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.menu-column {
+    width: 75%;
+    display: flex;
+    align-items: center;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+
+        li {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: justify;
+            color: #00427F;
+            transition: transform 0.3s ease;
+            &:hover {
+                color: #01182e;
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;  
+            }
+
+            &:not(:last-child) {
+                margin-right: 10px;
+                &:after {
+                    content: "|";
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+// Add additional styling for the other columns if needed
+.column {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+// Add the following styles for the new column with social media icons
+.social-icons-column {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    // Adjust styling for individual icons as needed
+    .social-icon {
+        width: 28px;
+        height: 28px;
+        background-size: cover;
+        cursor: pointer;
+
+        &.facebook {
+            background-image: url('/wp-content/themes/bollsvenskan/assets/images/facebook.svg');
+        }
+
+        &.twitter {
+            background-image: url('/wp-content/themes/bollsvenskan/assets/images/twitter.svg');
+        }
+
+        &.whatsapp {
+            background-image: url('/wp-content/themes/bollsvenskan/assets/images/whatsapp.svg');
+        }
+
+        &.plus {
+            background-image: url('/wp-content/themes/bollsvenskan/assets/images/plus.svg');
+            height: 30px;
+        }
+    }
+}
+
+.language-selector-column {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; // Use flex-end instead of end
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+    color: #00427F;
+    margin-right: 2%;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+    }
+}
+
+// Add the following styles for the Teams Filter row
+.teams-filter-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically in the center */
+    padding-left: 2px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.teams-filter-column {
+    width: 75%;
+    display: flex;
+    align-items: center;
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: -0.01em;
+        text-align: right;
+        color: #000000;
+        text-transform: uppercase;
+        margin-right: 5px;
+    }
+
+    .team-logos {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .team-logo {
+        width: 28px;
+        height: 28px;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+.date-column {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: right;
+    color: #000000;
+    text-transform: uppercase;
+    margin-right: 25px;
+}

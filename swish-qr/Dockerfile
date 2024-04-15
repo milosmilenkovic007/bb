@@ -1,0 +1,2 @@
+FROM php:8.1.1-apache
+COPY index.php /var/www/html

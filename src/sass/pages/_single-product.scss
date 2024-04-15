@@ -1,0 +1,83 @@
+// single-product.scss
+
+.product-template-default{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.woocommerce-breadcrumb{
+    display:none;
+}
+
+.woocommerce div.product {
+    margin-bottom: 0;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.woocommerce-page div.product .woocommerce-tabs {
+    clear: both;
+    display: none;
+}
+.product_meta {
+    display:none;
+}
+.woocommerce-page div.product div.summary {
+    float: unset;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.woocommerce .quantity .qty {
+    display: none;
+}
+.woocommerce div.product div.images.woocommerce-product-gallery {
+    display: none;
+}
+.woocommerce div.product .product_title {
+    font-family: Barlow Condensed;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    margin-top: 20px;
+    padding: 0;
+}
+.woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product p.price, .woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product span.price {
+    color: #faca00;
+    font-size: 28px;
+    font-weight: 700; 
+}
+.woocommerce div.product form.cart {
+    margin-bottom: 0em;
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt {
+    background-color: #00427f;
+    color: #fff;
+}
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt:hover {
+    background-color: #011d37;
+    color: #fff;
+}
+.related .products {
+    display:none; 
+}
+
+.product-description {
+    // Styles for the product description
+}
+
+.product-price {
+    // Styles for the product price
+}
+
+// Add more styles as needed...

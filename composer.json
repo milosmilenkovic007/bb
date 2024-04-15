@@ -1,0 +1,26 @@
+{
+    "name": "milosm/bollsvenskan-startup-theme",
+    "autoload": {
+        "psr-4": {
+            "MilosM\\BollsvenskanStartupTheme\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Milos M",
+            "email": "milosmilenkovic007@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^3.0",
+        "phpcompatibility/phpcompatibility-wp": "*"
+    },
+    "require": {
+        "stripe/stripe-php": "^13.16"
+    }
+}

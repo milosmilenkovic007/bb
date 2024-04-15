@@ -1,0 +1,36 @@
+.upcoming-block {
+    box-sizing: border-box;
+    flex: 1;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+.upcoming-title {
+    background: #00427f;
+    margin-top: 0;
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+
+.upcoming-ul {
+    gap: 10px;
+    padding: 0px;
+    display: grid;
+}
+
+.upcoming-single {
+    background: linear-gradient(0deg, #f0f1f5, #f0f1f5), linear-gradient(0deg, #f0f1f5, #f0f1f5);
+    list-style-type: none;
+    padding: 10px;
+    font-family: Barlow Condensed;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
